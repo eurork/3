@@ -7,7 +7,7 @@ pipeline {
                 sleep 2
                 rm plik.sh plik2.py plik3.rpm plik4.rpm
                 sleep 1
-                echo "kończe deploy."
+                echo "koncze deploy."
             }
         }
     }
