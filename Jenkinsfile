@@ -1,5 +1,6 @@
 node {
     stage('Deploy') {
+        sh 'cd ..'
         sh 'echo "rozpoczynam deploy . . ."'
         sh 'sleep 1'
         sh 'rm plik.sh plik2.py plik3.rpm plik4.rpm'
